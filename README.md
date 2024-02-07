@@ -9,7 +9,7 @@ of Python and SQL.
 3. Create .gitignore, requirements.txt
     ni .gitignore
     ni requirements.txt
-4. Add to .gitignore: .venv\, .vscode\, __pycache__/
+4. Add to .gitignore: .venv\, .vscode\, \__pycache__/
 5. Create directory for data
     mkdir data
 6. Create directory for sql
