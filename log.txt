@@ -1,0 +1,6 @@
+2024-02-07 10:17:11,605 - INFO - Program started
+2024-02-07 10:17:11,681 - INFO - Tables created successfully.
+2024-02-07 10:17:13,053 - INFO - Athlete data inserted successfully.
+2024-02-07 10:20:12,692 - INFO - Program started
+2024-02-07 10:20:12,746 - INFO - Tables created successfully.
+2024-02-07 10:20:14,133 - INFO - Athlete data inserted successfully.
