@@ -1,7 +1,9 @@
-## Project: datafun-05-sql-project
+## Project Name: datafun-05-sql-project
 ```
 This project showcases the continued practice of the integration
 of Python and SQL.
+
+Author: Nicole Hansen
 ```
 
 ## Steps
@@ -23,4 +25,21 @@ of Python and SQL.
     py -m pip install pandas pyarrow
 9. Freeze dependencies
     py -m pip freeze > requirements.txt
+
+## Data Used
+[Olympic data sets](https://github.com/nhansen23/datafun-05-sql-project/tree/main/data): athlete_events and country_definitions
+
+## SQL Queries
+[SQL Queries](https://github.com/nhansen23/datafun-05-sql-project/tree/main/sql)
+    - create tables
+    - delete records
+    - insert records
+    - aggregation
+    - filter
+    - group by
+    - inner join
+    - sorting
+    - update records
+
+
 
