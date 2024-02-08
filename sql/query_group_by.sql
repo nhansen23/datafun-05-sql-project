@@ -1,5 +1,5 @@
-SELECT year, gender, COUNTD(athlete_id) as athlete_count
+SELECT Year, Sex as Gender, COUNT(DISTINCT ID) as Athlete_Count
 FROM athletes
-INNER JOIN countries ON athletes.noc = countries.noc
-GROUP BY year, gender
-ORDER BY year, gender
+INNER JOIN countries ON athletes.NOC = countries.NOC
+GROUP BY Year, Gender
+ORDER BY Year, Gender

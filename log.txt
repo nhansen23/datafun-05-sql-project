@@ -1,6 +1,12 @@
-2024-02-07 10:17:11,605 - INFO - Program started
-2024-02-07 10:17:11,681 - INFO - Tables created successfully.
-2024-02-07 10:17:13,053 - INFO - Athlete data inserted successfully.
-2024-02-07 10:20:12,692 - INFO - Program started
-2024-02-07 10:20:12,746 - INFO - Tables created successfully.
-2024-02-07 10:20:14,133 - INFO - Athlete data inserted successfully.
+2024-02-07 20:17:28,390 - INFO - Program started
+2024-02-07 20:17:28,424 - INFO - Tables created successfully.
+2024-02-07 20:17:29,370 - INFO - Athlete data inserted successfully.
+2024-02-07 20:17:29,381 - INFO - Country data inserted successfully.
+2024-02-07 20:17:30,333 - INFO - All SQL operations completed successfully
+2024-02-07 20:17:30,333 - INFO - Program ended
+2024-02-07 20:18:19,034 - INFO - Program started
+2024-02-07 20:18:19,068 - INFO - Tables created successfully.
+2024-02-07 20:18:20,158 - INFO - Athlete data inserted successfully.
+2024-02-07 20:18:20,176 - INFO - Country data inserted successfully.
+2024-02-07 20:18:21,082 - INFO - All SQL operations completed successfully
+2024-02-07 20:18:21,082 - INFO - Program ended

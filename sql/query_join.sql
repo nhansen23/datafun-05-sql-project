@@ -1,5 +1,5 @@
 -- Join athletes and countries
-SELECT athlete_id, athlete_name, gender, age, team, athlete.noc,
-country, games, year, season, sport, event, medal
+SELECT ID as Athlete_ID, Name as Athlete_Name, Sex as Gender, Age, Team, athletes.noc,
+country, Games, Year, Season, Sport, Event, Medal
 FROM athletes
 INNER JOIN countries ON athletes.noc = countries.noc

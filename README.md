@@ -1,6 +1,8 @@
 ## Project: datafun-05-sql-project
+```
 This project showcases the continued practice of the integration
 of Python and SQL.
+```
 
 ## Steps
 1. Create repo on GitHub

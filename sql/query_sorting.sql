@@ -1,4 +1,4 @@
-SELECT athlete_name, year, country
+SELECT Name as Athlete_Name, Year, country
 FROM athletes
-INNER JOIN countries ON athletes.noc = countries.noc
-ORDER BY year DESC, country, athlete_name
+INNER JOIN countries ON athletes.NOC = countries.NOC
+ORDER BY Year DESC, country, Athlete_Name

@@ -1,16 +1,23 @@
+/*
 -- Count the number of athletes each Olympic year
-SELECT year, COUNTD(athlete_id) as athlete_count
+SELECT Year, COUNT(DISTINCT ID) as athlete_count
 FROM athletes
-INNER JOIN countries ON athletes.noc = countries.noc
+INNER JOIN countries ON athletes.NOC = countries.NOC
+GROUP BY Year
+*/
 
 -- Count the number of athletes per year per country
-SELECT year, noc, country, COUNTD(athlete_id) as athlete_count
+SELECT Year, athletes.NOC, country, COUNT(DISTINCT ID) as Athlete_Count
 FROM athletes
-INNER JOIN countries ON athletes.noc = countries.noc
-ORDER BY year, athlete_count DESC
+INNER JOIN countries ON athletes.NOC = countries.NOC
+GROUP BY Year, athletes.NOC, country
+ORDER BY Year, Athlete_Count DESC
 
+/*
 -- Count the number of athletes by gender each year
-SELECT year, gender, COUNTD(athlete_id) as athlete_count
+SELECT Year, Sex as Gender, COUNT(DISTINCT ID) as Athlete_Count
 FROM athletes
-INNER JOIN countries ON athletes.noc = countries.noc
-ORDER BY gender, athlete_count DESC
+INNER JOIN countries ON athletes.NOC = countries.NOC
+GROUP BY Year, Gender
+ORDER BY Gender, Athlete_Count DESC
+*/

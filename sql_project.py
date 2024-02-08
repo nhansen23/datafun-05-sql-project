@@ -54,13 +54,14 @@ def main():
     logging.info("Tables created successfully.")
     #logging.exception("Tables were not created.")
 
-    # Populate data: athletes from CSV and countries from sql
+    # Populate data: athletes from CSV due to large number of records
     insert_data_from_csv()
 
+    # Populate data: countries from insert_records sql query
     execute_sql_from_file(db_filepath, 'sql/insert_records.sql')
     logging.info("Country data inserted successfully.")
     #logging.exception("Error loading country data.")
-
+    
     # Execute rest of sql queries
     execute_sql_from_file(db_filepath, 'sql/update_records.sql')
     execute_sql_from_file(db_filepath, 'sql/delete_records.sql')
