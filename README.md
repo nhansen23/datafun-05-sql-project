@@ -31,6 +31,7 @@ Author: Nicole Hansen
 
 ## SQL Queries
 [SQL Queries](https://github.com/nhansen23/datafun-05-sql-project/tree/main/sql)
+
     - create tables
     - delete records
     - insert records
